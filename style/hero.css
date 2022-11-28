@@ -1,0 +1,27 @@
+.hero {
+  padding: 150px 16px 71px 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero__intro {
+  display: grid;
+  gap: 30px;
+}
+
+.hero__intro p {
+  max-width: 520px;
+}
+
+@media (max-width: 1040px) {
+  .hero {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero {
+    padding-top: 98px;
+  }
+}

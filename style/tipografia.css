@@ -14,5 +14,9 @@
   font: normal 14px/16px Helvetica;
 }
 
+.font__hero-p {
+  font: normal 12px/18px Helvetica;
+}
+
 @media (max-width: 520px) {
 }
