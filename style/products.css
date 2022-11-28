@@ -18,3 +18,39 @@
   background: var(--cor-0);
   padding: 8px 16px;
 }
+
+.products__img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.products__ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  padding: 50px 10px;
+}
+
+.products__li {
+  max-width: 200px;
+  display: grid;
+  gap: 10px;
+}
+
+.products__li-list {
+  display: grid;
+  gap: 8px;
+}
+
+@media (max-width: 520px) {
+  .products__ul {
+    grid-template-columns: 1fr;
+    padding-top: 23px;
+  }
+
+  .products__li {
+    max-width: 400px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
