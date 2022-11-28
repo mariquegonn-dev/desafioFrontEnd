@@ -1,7 +1,7 @@
 .hero {
-  padding: 150px 18px 71px 16px;
+  padding: 150px 0 71px 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   align-items: center;
   gap: 60px;
 }
@@ -13,7 +13,7 @@
 }
 
 .hero__intro p {
-  max-width: 520px;
+  max-width: 100ch;
 }
 
 .hero__form {
