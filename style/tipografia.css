@@ -18,5 +18,9 @@
   font: normal 12px/18px Helvetica;
 }
 
+.font__form {
+  font: normal 12px/14px Helvetica;
+}
+
 @media (max-width: 520px) {
 }

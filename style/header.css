@@ -5,7 +5,7 @@
 .header__bg {
   width: 100%;
   height: 399px;
-  background: #707070;
+  background: var(--cor-2);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 62.6%);
   position: absolute;
   z-index: -1;
@@ -31,9 +31,9 @@
   width: 158px;
   padding: 11px 0px;
   text-align: center;
-  background: #fff;
+  background: var(--cor-0);
   box-shadow: 0px 1px 6px #00000029;
-  border: 1px solid #707070;
+  border: 1px solid var(--cor-2);
   border-radius: 4px;
   display: inline-block;
 }
