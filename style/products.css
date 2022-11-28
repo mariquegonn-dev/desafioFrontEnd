@@ -43,10 +43,35 @@
   gap: 8px;
 }
 
+.products__button {
+  height: 30px;
+}
+
+.products__button-gen {
+  height: 39px;
+  padding: 0 36px;
+}
+
+.products__button,
+.products__button-gen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font: normal 16px/16px Helvetica;
+  border: 1px solid var(--cor-1);
+  background: var(--cor-0);
+  cursor: pointer;
+}
+
 @media (max-width: 520px) {
   .products__ul {
     grid-template-columns: 1fr;
     padding-top: 23px;
+  }
+
+  .products__description {
+    display: none;
   }
 
   .products__li {

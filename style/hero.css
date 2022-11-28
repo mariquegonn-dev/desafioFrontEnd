@@ -67,4 +67,8 @@
   .hero__form {
     max-width: 385px;
   }
+
+  .hero__intro {
+    gap: 20px;
+  }
 }
