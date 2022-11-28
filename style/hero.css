@@ -54,8 +54,8 @@
 
 @media (max-width: 520px) {
   .hero {
+    padding: 98px 16px 71px 16px;
     grid-template-columns: 1fr;
-    padding-top: 98px;
   }
 
   .hero__form {
