@@ -1,0 +1,30 @@
+.footer {
+  position: relative;
+}
+
+.footer__bg {
+  width: 100%;
+  height: 297px;
+  background: var(--cor-2);
+  clip-path: polygon(0 32%, 100% 0, 100% 100%, 0% 100%);
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+}
+
+.footer__p {
+  display: grid;
+  justify-items: center;
+  padding-top: 160px;
+}
+
+@media (max-width: 520px) {
+  .footer__bg {
+    clip-path: polygon(0 32%, 100% 0, 100% 100%, 0% 100%);
+    height: 157px;
+  }
+
+  .footer__p {
+    padding-top: 70px;
+  }
+}

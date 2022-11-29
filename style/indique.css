@@ -2,6 +2,8 @@
   position: relative;
   display: grid;
   justify-items: center;
+  gap: 40px;
+  padding: 0 9px;
 }
 
 .indique__detail {
@@ -11,4 +13,44 @@
   position: absolute;
   top: 14px;
   z-index: -1;
+}
+
+.formFriend {
+  max-width: 720px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+
+.flexFriend {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+}
+
+.flexFriend input {
+  max-width: 100%;
+  padding: 5px 0;
+  border: 1px solid var(--cor-2);
+}
+
+.indique__button {
+  width: 260px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font: normal 16px/16px Helvetica;
+  border: 1px solid var(--cor-1);
+  background: var(--cor-0);
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 520px) {
+  .flexFriend {
+    width: 390px;
+  }
 }
