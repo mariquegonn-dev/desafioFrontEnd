@@ -27,7 +27,7 @@ function fetchContent(p) {
     p.map(({ image, name, description, oldPrice, price }) => {
       container.innerHTML += `
   <li class="cor-1 products__li">
-  <img class="products__img" src="${image}" alt="">
+  <img class="products__img" src="${image}" alt="${description}">
   <div class="products__li-list">
     <h3 class="font__p">${name}</h3>
     <p class="font__description products__description">${description}</p>
